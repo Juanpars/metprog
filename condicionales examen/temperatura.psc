@@ -18,26 +18,32 @@ Algoritmo temperatura
 			f <- G * 1.8 + 32;
 			Escribir "****************";
 			Escribir "El numero de grados en ºF: ", f;
+			Escribir "****************";
 		2:
 			f <- (G-32) / 1.8;
 			Escribir "****************";
 			Escribir "El numero de grados en ºC: ", f;
+			Escribir "****************";
 		3:
 			f <- G - 273.15;
 			Escribir "****************";
 			Escribir "El numero de grados en ºC: ", f;
+			Escribir "****************";
 		4:
 			f <- G + 273.15;
 			Escribir "****************";
 			Escribir "El numero de grados en ºK: ", f;
+			Escribir "****************";
 		5:
 			f <- (5/9*(G-32) + 273.15);
 			Escribir "****************";
 			Escribir "El numero de grados en ºK: ", f;
+			Escribir "****************";
 		6:
 			f <- 1.8*(G - 273.15) + 32;
 			Escribir "****************";
 			Escribir "El numero de grados en ºF: ", f;
+			Escribir "****************";
 		De Otro Modo:
 			Escribir "Dato incorrecto";
 	Fin Segun
